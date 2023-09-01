@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "target": "es2019",
+        "baseUrl": "."
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "files": [
+        "./typings/index.d.ts",
+        "./typings/thunderbird-webext-browser/index.d.ts"
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}

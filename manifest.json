@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Dark Plain Text",
+    "version": "1.0.0",
+    "description": "Use dark mode styling when reading plain text emails with a dark theme.",
+    "author": "Aaron Papp",
+    "homepage_url": "https://github.com/Aaron-P/DarkPlainText",
+    "content_security_policy": "default-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests",
+    "icons": {
+        "24": "src/icons/icon.svg",
+        "32": "src/icons/icon.svg",
+        "48": "src/icons/icon.svg",
+        "64": "src/icons/icon.svg",
+        "96": "src/icons/icon.svg"
+    },
+    "permissions": [
+        "messagesModify"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{d8815e01-8ffc-4d85-a082-d750b35f21c1}",
+            "strict_min_version": "102.0"
+        }
+    }
+}
