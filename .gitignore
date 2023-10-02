@@ -239,5 +239,5 @@ pip-log.txt
 *.pem
 **/.vs/*
 */7za.exe
-*/Firefox/*
+*/Thunderbird/*
 /_misc/*
