@@ -2,7 +2,8 @@
     "use strict";
 
     const isPlainText = document.querySelector("body > div.moz-text-plain") != null;
-    if (!isPlainText)
+    const isFlowed = document.querySelector("body > div.moz-text-flowed") != null;
+    if (!isPlainText && !isFlowed)
         return;
 
     // https://bugzilla.mozilla.org/show_bug.cgi?id=1715361#c10

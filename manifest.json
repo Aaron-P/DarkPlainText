@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Dark Plain Text",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Use dark mode styling when reading plain text emails with a dark theme.",
     "author": "Aaron Papp",
     "homepage_url": "https://github.com/Aaron-P/DarkPlainText",
